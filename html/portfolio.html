@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!--Meta-->
+   	<meta charset="UTF-8">
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="сборка мебели"/>
+	<!--Favicon-->
+	<link rel="icon" href="../image/favicons/old.png" type="image/icon" sizes="any">
+	<link rel="icon" href="../image/favicons/modern.png" type="image/png">
+	<link rel="apple-touch-icon" href="./image/favicons/apple.png">
+   	<!--Style-->	
+	<link href="../css/reset_style.css" rel="stylesheet">
+   	<link href="../css/bootstrap.min.css" rel="stylesheet">
+   	<link href="../css/style.css" rel="stylesheet">
+   	<!--Media queries-->
+   	<link rel="stylesheet" media="only screen and (max-width: 767px)" href="../css/style_mobile.css">
+   	<!--Fonts-->	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   	<title>Портфолио выполненных заказов</title>
+</head>
+<body>
+	<!-- Back to top button -->
+	<button onclick="topFunction()" id="btn_top" title="Go to top"></button>
+
+	<!--Header-Top Navigation-Bar-->
+	<!--START-->
+	<div class="header-banner-bg">
+		<div class="mt-2 mb-lg-2 mb-md-0 container">
+			<div class="row">
+				<div class="header-top">
+					<div class="row justify-content-between">
+						<div class="col-lg-7 topper_1">
+							<img id="topper_1" src="../image/icons/location.png">
+							<span class="golos-text">г. Самара</span>
+						</div>
+						<div class="col-lg-5 col-md-12">
+							<img id="topper_2" src="../image/icons/phone.png">
+							<span class="golos-text main-phone">
+								<a href="tel:+79879370888">+7-987-937-08-88</a>
+							</span>
+							<img id="topper_3" src="../image/icons/email.png">
+							<span class="golos-text main-email">
+								<a href="mailto:onstyle134@gmail.com">onstyle134@gmail.com</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="mt-3 mt-lg-2 mb-1 mb-lg-3 container">
+				<div class="row">
+					<nav class="navbar navbar-expand-lg navbar-background">
+						<div class="container">
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+								<ul class="ms-0 ms-lg-5 pb-lg-0 pb-2 nav nav-menu">
+								    <li class="ms-3 nav-item">
+										<a class="nav-link navbar-alumni-sans" href="../index.html">Главная</a>
+									</li>
+									<li class="ms-3 nav-item">
+										<a class="nav-link active navbar-alumni-sans" href="#">Портфолио</a>
+									</li>
+									<li class="ms-3 nav-item">
+										<a class="nav-link navbar-alumni-sans" href="../index.html#price">Цены</a>
+									</li>
+									<li class="ms-3 nav-item">
+										<a class="nav-link navbar-alumni-sans" href="../index.html#faq">Частые вопросы</a>
+									</li>
+									<li class="ms-3 nav-item">
+										<a class="nav-link navbar-alumni-sans" href="../index.html#stats-section">Этапы работы</a>	
+									</li>
+									<li class="ms-3 nav-item">
+										<a class="nav-link navbar-alumni-sans" href="../index.html#review">Отзывы</a>	
+									</li>
+								</ul>
+								<ul class="nav nav-menu">
+									<li class="ms-2">
+										<a href="viber://chat?number=+79879370888" target="_blank"><img id="img" class="icon-size" src="../image/icons/viber.svg" data-hover-src="../image/icons/viber_color.svg" alt="icon"></a>
+									</li>
+									<li class="ms-2">
+										<a href="https://api.whatsapp.com/send?phone=79879370888" target="_blank"><img id="img" class="icon-size" src="../image/icons/whatsapp.svg" data-hover-src="../image/icons/whatsapp_color.svg" alt="icon"></a>
+									</li>
+									<li class="ms-2">
+										<a href="https://t.me/+79879370888" target="_blank"><img id="img" class="icon-size" src="../image/icons/telegram.svg" data-hover-src="../image/icons/telegram_color.svg" alt="icon"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<div class="container mt-xl-5 mt-lg-5 mt-5 mb-5 pt-lg-5 pb-5">
+			<div class="row">
+				<div class="col-lg-6 col-md-12">
+    					<h1 class="ps-3 header-title">Профессиональная сборка <span class="red-color-50">мебели</span> в Самаре по <span class="red-color-50">лучшим</span> ценам</h1>
+    					<div class="pt-5 d-flex justify-content-around">
+    						<button type="button" class="btn-header-top" data-bs-toggle="modal" data-bs-target="#exampleModal">оставить заявку</button>
+    						<a href="tel:+79879370888"><button type="button" class="btn-header-top">звонок мастеру</button></a>
+    				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+		  	<div class="modal-content">
+				<div class="modal-header">
+			  		<h5 class="modal-title">Заполните форму заявки</h5>
+			  		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<form action="telegrambot.php" method='POST'>
+    				<div class="modal-body">
+    					<div class="container contact-form">
+    						<div class="row justify-content-center">
+    							<div class="col-8">
+    								<input type="text" name="contact-name" id="contact-form_name" placeholder="✍ Введите имя" maxlength="15" required>
+                                </div>
+    							<div class="col-8">
+    								<input type="text" name="contact-number" id="contact-form_number" placeholder="📞 Введите номер телефона +7" maxlength="11" required>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+            		<div class="modal-footer">
+            		    <button type="submit" class="btn-modal">Отправить</button>
+            		</div>
+				</form>
+		  	</div>
+		</div>
+	</div>
+	<!--END-->
+	
+	<!--Content-->
+	<!--START-->
+	<div class="container d-flex justify-content-center pt-lg-5 pb-5">
+		<div class="row">
+			<div class="col-lg-12 pt-5 pb-2 text-center">
+				<h3 class="section-title">Выполненные <span class="red-color-100">заказы:</span></h3>
+			</div>
+		</div>
+	</div>
+	<div class="container mb-5 pb-lg-5 pb-2">
+		<div class="row justify-content-center">
+		    <div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_1.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_2.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_3.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_4.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_5.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_6.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_7.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_8.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_9.jpg" class="port-img">
+			</div> 
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_10.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_11.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_12.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_13.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_14.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_15.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_16.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_17.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_18.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_19.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-3 col-6">
+			    <img src="../image/portfolio/500/portfolio_20.jpg" class="port-img">
+			</div>
+			<div class="pb-4 col-lg-4 col-6">
+			    <img src="../image/portfolio/900/portfolio_1.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-4 col-6">
+			    <img src="../image/portfolio/900/portfolio_2.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-4 col-6">
+			    <img src="../image/portfolio/900/portfolio_3.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-4 col-6">
+			    <img src="../image/portfolio/900/portfolio_4.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-4 col-6">
+			    <img src="../image/portfolio/900/portfolio_5.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-4 col-6">
+			    <img src="../image/portfolio/900/portfolio_6.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-4 col-6">
+			    <img src="../image/portfolio/900/portfolio_7.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-4 col-6">
+			    <img src="../image/portfolio/900/portfolio_8.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-4 col-6">
+			    <img src="../image/portfolio/900/portfolio_9.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-6 col-6 d-flex justify-content-center">
+			    <img src="../image/portfolio/900/portfolio_10.jpg" class="service-img-port">
+			</div>
+			<div class="pb-4 col-lg-6 col-6">
+			    <img src="../image/portfolio/900/portfolio_11.jpg" class="service-img-port">
+			</div>
+		</div>
+	</div>
+	<!--END-->
+
+	<!--Footer-->
+	<!--START-->
+	<footer id="footer-section">
+        <div class="container">
+            <div class="footer-one">
+                <div class="row justify-content-between">
+                    <div class="col-lg-6 col-12">
+                        <div class="footer-heading">
+                            <h3>Профессиональная сборка <span class="red-color-50">мебели</span> в Самаре по <span class="red-color-50">лучшим</span> ценам!</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-two">
+                <div class="row justify-content-xl-between justify-content-center">
+                    <div class="offset-lg-5 col-lg-2 offset-lg-1 col-5">
+                        <div class="ba-footer-widget footer-two-widget">
+                            <h3 class="ba-footer-widget-title footer-two-widget__title"><span class="red-color-50">Сотрудничество</span></h3>
+                            <ul>
+                                <li><a href="../index.html#email">Свяжитесь с нами</a></li>
+                                <li><a href="./partners.html">Список партнёров</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-5">
+                        <div class="ba-footer-widget footer-two-widget">
+                            <h3 class="ba-footer-widget-title footer-two-widget__title"><span class="red-color-50">Навигация</span></h3>
+                            <ul>
+								<li><a href="#">Портфолио</a></li>
+                                <li><a href="../index.html#price">Цены</a></li>
+                                <li><a href="../index.html#faq">Частые вопросы</a></li>
+                                <li><a href="../index.html#stats-section">Этапы работы</a></li>
+                                <li><a href="../index.html#review">Отзывы</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-7 pt-lg-0 pt-3">
+                        <div class="ba-footer-widget footer-two-widget footer-two-widget--last">
+                            <h3 class="ba-footer-widget-title footer-two-widget__title"><span class="red-color-50">Контакты</span></h3>
+                            <div class="ba-footer-widget-working-hours-list footer-two-widget__working-hours">
+                                <ul>
+									<li>
+										<img src="../image/icons/phone.png">
+										<span class="main-phone">
+											<a href="tel:+79879370888">+7-987-937-08-88</a>
+										</span>
+									</li>
+									<li>
+										<img class="pb-1" src="../image/icons/email.png">
+										<span class="main-email">
+											<a href="mailto:onstyle134@gmail.com">onstyle134@gmail.com</a>
+										</span>
+									</li>
+									<li>
+										<a href="viber://chat?number=+79879370888" target="_blank"><img class="icon-footer" src="../image/icons/viber.svg" alt="icon"></a>
+										<a href="https://api.whatsapp.com/send?phone=79879370888" target="_blank"><img class="icon-footer" src="../image/icons/whatsapp.svg" alt="icon"></a>
+										<a href="https://t.me/+79879370888" target="_blank"><img class="icon-footer" src="../image/icons/telegram.svg" alt="icon"></a>
+									</li>
+                                    <li>
+                                        <span class="label">Приём звонков и заявок eжедневно с 07:00 до 23:00</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="pt-35 pb-40">
+                <div class="row pt-3">
+                    <div class="col-md-6">
+                        <p class="ba-footer-copyright-text">© 2024 Все права сохранены.</p>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-end">
+						<p class="ba-footer-copyright-text">Design elements: <a href="https://icons8.com/" target="_blank">Icons8</a>, <a href="https://freepik.com/" target="_blank">Freepik</a>.</p>
+                        <p class="ps-2 ba-footer-copyright-text">Design website <a href="https://github.com/Daniel-Astaptscev/" target="_blank">Daniel Astaptscev</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<!--END-->
+
+	<script src="../js/bootstrap.bundle.min.js"></script>
+	
+	<!--Script # 1 replacing icons in nav-->
+	<script>
+		function createHoverImage() {
+		  document.querySelectorAll('[data-hover-src]').forEach((img) => {
+			const src = img.getAttribute('src');
+			const srcH = img.getAttribute('data-hover-src');
+			img.addEventListener('mouseover', () => {img.src = srcH;})
+			img.addEventListener('mouseout', () => {img.src = src;})
+		  });
+		}
+		createHoverImage();
+	</script>
+
+	<!--Script # 2 back to top-->
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction(){
+		if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+		document.getElementById("btn_top").style.display = "block";
+		} else {
+		document.getElementById("btn_top").style.display = "none";
+		}
+		}
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+</html>

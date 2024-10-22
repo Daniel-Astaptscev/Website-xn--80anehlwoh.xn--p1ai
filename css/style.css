@@ -1,0 +1,959 @@
+/*
+====================================================================
+	Global Settings: general
+====================================================================
+*/ 
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+.section-title {
+    font-family: "Golos Text", sans-serif;
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.text-center, .single-step {
+    text-align: center !important;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Golos Text", sans-serif;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 37px;
+}
+
+h5 {
+    margin-bottom: 0px;
+}
+
+#btn_top {
+    background-image: url("../image/icons/top.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:#b30000b9;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    }
+    #myBtn:hover {
+    background-color:#b30000d0;
+}
+
+.btn-header-top {
+    font-family: "Alumni Sans", sans-serif;
+    display: inline-block;
+    border: 0;
+    height: 50px;
+    padding: 0 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #b30000b9;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 48px;
+}
+
+.btn-red {
+    font-family: "Alumni Sans", sans-serif;
+    display: inline-block;
+    border: 0;
+    height: 50px;
+    padding: 0 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #b30000d3;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 48px;
+}
+
+.cooperation-btn:hover, .btn-header-top:hover, .btn-red:hover, .nwsletter-btn:hover, .btn-modal:hover {
+    background-color: #b30000f3;
+}
+
+/*
+====================================================================
+	Global Settings: color
+====================================================================
+*/ 
+.red-color-100 {
+	color: #b30000d0;
+}
+
+.white-color, .modal-title {
+	color: #fff;
+}
+
+.main-email:hover, .main-phone:hover {
+    color: #b30000d3;
+}
+
+.nav-item .active, .navbar-alumni-sans:hover, .red-color-50 {
+    color: #b30000b9;
+}
+
+/*
+====================================================================
+	Global Settings: indentation
+====================================================================
+*/ 
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.position-top {
+    background-position: right 60%;
+}
+
+.pb-150 {
+    padding-bottom: 200px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pt-65 {
+    padding-top: 65px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+/*
+====================================================================
+	Block: Header-Top Navigation-Bar & Header-Bottom
+====================================================================
+*/ 
+#avito-img {
+    height: 160px; 
+    width: 160px;
+}
+
+.main-title {
+    font-family: "Golos Text", sans-serif;
+}
+
+.navbar-background {
+	background: rgb(0, 0, 0, 0.5);
+}
+
+.icon-size {
+    width: 45px;
+    height: 45px;
+}
+    
+.navbar-alumni-sans {
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.golos-text, a {
+    font-family: "Golos Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+#topper_1 {
+    padding-bottom: 5px;
+}
+
+#topper_2 {
+    padding-bottom: 5px;
+    margin-left: 6rem;
+}
+
+#topper_3 {
+    padding-bottom: 4px;
+    padding-left: 1rem;
+}
+
+.main-label{
+    font-family: "Alumni Sans", sans-serif;
+    font-weight: 400;
+    color: #fff;       
+    font-size: 1.5rem;
+    line-height: 5px;
+}
+
+.header-banner-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/background/header.webp);
+    background-position: right 30%;
+    background-size: cover;
+}
+
+.header-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Golos Text", sans-serif;
+    margin-bottom: 27px;
+}
+
+.about-statics {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-statics .single-statics {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.about-statics .single-statics-number {
+    font-family: "Golos Text", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #b30000d3;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.about-statics .single-statics-label {
+    font-family: "Golos Text", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: #292930;
+}
+
+.d-block {
+    height: 617px; 
+    border-radius: 10px;
+}
+
+/*
+====================================================================
+	Block: Modal window
+====================================================================
+*/
+.modal-header, .modal-footer {
+    background-color: #b3000098;    
+}
+
+.btn-close {
+    background-image: url("../image/icons/close.svg");
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}
+
+.btn-modal {
+    font-family: "Alumni Sans", sans-serif;
+    display: inline-block;
+    border: 0;
+    height: 50px;
+    padding: 0 28px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #b30000a1;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 48px;
+}
+
+/*
+====================================================================
+	Block: Service-Content
+====================================================================
+*/
+.service-bg {
+    background: url(../image/background/service.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#pills-tab {
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #f0f0f0;
+    border-color: #b30000d3;
+    color: unset;
+}
+
+.nav-pills .nav-link {
+    border: 2px solid transparent;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.single-pack-list {
+    padding-left: 10px; 
+}
+
+.single-pack-list li {
+    font-family: "Golos Text", sans-serif;
+    padding-bottom: 0.4rem;
+    padding-left: 2rem;
+    background-image: url(../image/icons/ok.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
+
+.title-list {
+    font-family: "Golos Text", sans-serif;
+    color: #292930;
+}
+
+.package-details {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: left;
+}
+
+.tab-content > .active {
+    display: block;
+}
+
+.service-subtitle {
+    font-family: "Golos Text", sans-serif;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 100%;
+    color: #292930;
+    display: block;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.service-img-port {
+    border-radius: 10px;
+    height: 520px;
+    width: 350px;
+}
+
+.service-img {
+    border-radius: 10px;
+    height: 520px;
+    width: 350px;
+}
+
+.nav-pills .nav-link.active .service-subtitle, .nav-pills .show > .nav-link .service-subtitle {
+    color: #b30000d3;
+}
+
+.carousel-indicators .active {
+    background-color: #b30000d3;
+}
+
+/*
+====================================================================
+	Block: Contact-Form & Steps
+====================================================================
+*/
+#price {
+    font-size: 3rem;
+}
+
+#service-text {
+    font-family: "Alumni Sans", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;       
+    font-size: 1.5rem;
+}
+
+#stats-section {
+    padding-top: 415px;
+}
+
+.bg-default {
+    background: url(../image/background/steps.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.single-step-number {
+    font-family: "Alumni Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #b30000d3;
+    z-index: 1;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+    transition: 0.4s ease;
+}
+
+.single-step-label {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 1.7rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+    display: block;
+}
+
+.single-step-number::before {
+    content: "";
+    position: absolute;
+    border-radius: 10px;
+    top: -40px;
+    left: 50%;
+    width: 105px;
+    height: 105px;
+    background: #fff;
+    z-index: -1;
+    transform: rotate(45deg);
+    translate: -50% 0;
+    transition: 0.4s ease;
+}
+
+.single-step:hover .single-step-number::before {
+    background: #b30000d3;
+}
+
+.single-step-label:hover {
+    color: #b30000d3;
+}
+
+.single-step:hover .single-step-number {
+    color: #fff;
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+
+.input-fields > * {
+    position: relative;
+}
+
+.input-fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    row-gap: 45px;
+    margin-bottom: 50px;
+}
+
+.input-fields > *::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    translate: 0 -50%;
+    width: 38px;
+    height: 18px;
+    line-height: 16px;
+}
+
+.input-field-container-name::after {
+    content: "✍";
+}
+
+.input-field-container-number::after {
+    content: "📞";
+}
+
+.conatct-bg {
+    border-radius: 10px;
+    box-shadow: 3.5px 6.062px 76px 0px rgba(0, 0, 0, 0.11);
+    background: #fff;
+    margin-bottom: -235px;
+}
+
+.contact-form-container {
+    padding: 50px 50px 0px 50px;
+}
+
+.contact-form-container h2 {
+    margin-bottom: 48px;
+}
+
+#contact-form_name, #contact-form_number {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid #ebebeb;
+    padding: 12px 0;
+    width: 100%;
+    padding-right: 25px;
+    color: #b30000d3;
+}
+
+.contact-img {
+    border-radius: 0px 10px 10px 0px;
+}
+
+/*
+====================================================================
+	Block: F. A. Q.
+====================================================================
+*/
+.ba-section-subtitle {
+    font-size: 22px;
+    font-weight: 500;
+    color: #b30000d3;
+    margin-bottom: 15px;
+}
+
+.ba-faq-left-content .ba-section-title {
+    margin-bottom: 7px;
+}
+
+.ba-faq-accordion .accordion-item:not(:last-child) {
+    margin-bottom: 20px;
+    border: 0;
+}
+
+.accordion {  
+    --bs-accordion-border-width: 0; 
+} 
+
+.ba-faq-accordion .accordion-button.collapsed {
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #ddd;
+    color: #292930;
+}
+
+.ba-faq-accordion .accordion-collapse .accordion-body {
+    border: 1px solid #ddd;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 18px 22.5px;
+}
+
+.ba-faq-accordion .accordion-button {
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 26px;
+    background: #b30000d3;
+    color: #fff;
+    box-shadow: none;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1rem;
+    color: #212529;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+
+.accordion-body {
+    font-family: "Golos Text", sans-serif;
+    color: #747885;
+}
+
+a, button {
+    color: inherit;
+    outline: medium none;
+}
+
+.accordion-button::after {
+    background-image: url(../image/icons/down.png);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../image/icons/up.png);
+    transform: none;  
+}
+
+/*
+====================================================================
+	Block: Cooperation
+====================================================================
+*/
+#cooperation-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../image/background/email.webp);
+    background-position: left 10%;
+}
+
+.cooperation-content {
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+}
+
+.cooperation-email {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    border: 0;
+    padding: 10px 130px 10px 20px;
+    border-radius: 5px;
+    height: 50px;
+    background: #fff;
+    color: #b30000d3;
+}
+
+.cooperation-btn {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 1.6rem;
+    border: 0;
+    background: #b30000d3;
+    color: #fff;
+    padding: 0 20px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    translate: 0% -50%;
+}
+
+.cooperation-form {
+    position: relative;
+}
+
+.cooperation-txt h3 {
+    font-family: "Golos Text", sans-serif;
+    color: #fff;
+}
+
+.cooperation-txt {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/*
+====================================================================
+	Block: Reviews
+====================================================================
+*/
+.review-single {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
+}
+
+.review-profile {
+    width: 60px;
+    height: 60px;
+}
+
+.review-info {
+    padding-left: 20px;
+}
+
+.name-review {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 600;
+    color: #292930;
+    font-size: 1.2rem;
+}
+
+.stars {
+    margin-bottom: 8px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../image/icons/arrow_left.png");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../image/icons/arrow_right.png");
+}
+
+.carousel-size-2 {
+    height: 500px;
+}
+
+.carousel-size-btn {
+    height: 15rem;
+}
+
+.blocker {
+    width: 10px;
+    background-color: #fff;
+}
+
+.review-text {
+    font-family: "Golos Text", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/*
+====================================================================
+	Block: Partners 
+====================================================================
+*/
+.partner-card .image img {
+    display: inline-block;
+}
+
+.partner-card .image {
+    overflow: hidden;
+}
+
+.partner-card {
+    margin-bottom: 4px;
+}
+
+.partner-title a {
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+    color: #292930;
+    font-size: 1rem;
+}
+
+.partner-subtitle {
+    font-family: "Golos Text", sans-serif;
+    color: #9399A9;
+    font-size: 0.8rem;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 40px;
+}
+
+/*
+====================================================================
+	Block: Footer
+====================================================================
+*/
+#footer-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../image/background/footer.webp);
+    background-size: cover;
+}
+
+.footer-heading h3 {
+    font-family: "Golos Text", sans-serif;
+    color: #fff;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.footer-two-widget__title {
+    font-weight: 500;
+    color: #dddddd;
+}
+
+.ba-footer-widget-title {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 26px;
+}
+
+.footer-two-widget ul li a {
+    font-size: 16px;
+    color: #dddddd;
+}
+
+.ba-footer-widget ul li a {
+    font-family: "Alumni Sans", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.6rem;
+    line-height: 1.2rem;
+}
+
+.label {
+    font-family: "Alumni Sans", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 1.1rem;
+}
+
+.footer-one {
+    border-bottom: 1px solid #757575;
+    padding: 70px 0 70px;
+}
+
+.footer-two {
+    border-bottom: 1px solid #757575;
+    padding: 60px 0;
+}
+
+.icon-footer {   
+    height: 32px;
+    width: 32px;
+}
+
+.ba-footer-widget ul li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+.footer-two-widget__working-hours ul li .label, .footer-two-widget__working-hours ul li .value {
+    color: #dddddd;
+    border-bottom-color: #dddddd;
+}
+
+.ba-footer-widget-working-hours-list ul li {
+    overflow: hidden;
+    list-style: none;
+    margin-bottom: 7px;
+    border-bottom: 1px solid #838384;
+    padding-bottom: 5px;
+}
+
+.ba-footer-copyright-text, .ba-footer-copyright-text a {
+    font-family: "Alumni Sans", sans-serif;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/*
+====================================================================
+	HTML PAGE: Partners
+====================================================================
+*/
+.list-partners li a {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 1.9rem;
+    padding-bottom: 0.6rem;
+    padding-left: 2rem;
+    background-image: url(../image/icons/ok.svg);
+    background-position: 0 0;
+    background-size: 1.9rem 1.9rem;
+    background-repeat: no-repeat;
+} 
+
+.list-partners li a:hover {
+    color: #b30000d3;
+} 
+
+.list-partners {
+    padding-left: 20px;
+}
+
+/*
+====================================================================
+	HTML PAGE: Portfolio
+====================================================================
+*/
+.port-img {
+    border-radius: 10px;
+    height: 520px;
+    width: 280px;
+}

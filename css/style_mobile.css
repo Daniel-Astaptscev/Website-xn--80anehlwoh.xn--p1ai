@@ -1,0 +1,295 @@
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .header-title {
+        font-size: 30px;
+        margin-bottom: 17px;
+    }
+    .footer-heading h3 {
+        font-size: 30px;
+    }
+    
+    .ps-2 {
+        text-align: center;
+    }
+    
+    #btn_top {
+        height: 38px;
+        width: 38px;
+        right: 15px;
+    }
+    
+    #avito-img {
+        height: 60px;
+    }
+    
+    .icon-middle {
+        height: 48px;
+        width: 48px;
+    }
+    
+    .navbar-toggler-icon {
+        background-image: url("../image/icons/menu.png");
+    }
+    
+    .btn-header-top {
+        height: 50px;
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 48px;
+    }
+
+    .navbar-toggler, .navbar-toggler-icon {
+        border: #fff;
+    }
+    
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    
+    .nav-menu {
+        justify-content: center;
+    }
+    
+    .icon-size {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .icon-img {
+        width: 48px;
+        height: 48px; 
+    }
+    
+    .navbar-alumni-sans {
+        font-size: 1.4rem;
+    }
+
+    .main-label{
+        font-size: 1.3rem;
+        line-height: 5px;
+    }
+    
+    .main-title {
+        font-size: 27px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    .d-block {
+        height: 417px; 
+        border-radius: 10px;
+    }
+
+    .main-email, .main-phone {
+        font-size: 13px;
+    }
+    
+    .topper_1, .service-img, .faq-img, .contact-img, .icon-img {
+        display: none;
+    } 
+    
+    #topper_2 {
+        margin-left: 0rem;
+    }
+        
+    #topper_3 {
+        padding-left: 0.5rem;
+    }
+    
+    .about-statics .single-statics-number {
+        font-size: 1.3rem;
+    }
+
+    .about-statics .single-statics-label {
+        font-size: 1rem;
+    }
+
+    .about-statics {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        gap: 30px;
+    }
+    
+    .ba-faq-accordion .accordion-button {
+        font-size: 0.9rem;
+    }
+    
+    .accordion-body {
+        font-size: 0.8rem;
+    }
+    
+    .pb-40 {
+        padding-bottom: 20px;
+    }
+    
+    .pt-50, .pt-115 {
+        padding-top: 15px;
+    }
+    
+    .section-title {
+        font-size: 27px;
+    }
+    
+    .pb-20 {
+        padding-bottom: 0px;
+    }
+    
+    .pb-120 {
+        padding-bottom: 70px;
+    }
+    
+    .pt-120 {
+        padding-top: 80px;
+    }
+    
+    #price {
+        font-size: 1.7rem;
+    }
+    
+    .service-subtitle {
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+    
+    .nav-pills .nav-link {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .single-pack-list li {
+        background-size: 1.2rem 1.2rem;
+        font-size: 0.8rem;
+    }
+    
+    .title-list {
+        font-size: 1.1rem;
+    }
+    
+    .icon-service {
+        width: 32px;
+        height: 32px;
+    }
+    
+    #service-text {
+        font-size: 1rem;
+    }
+    
+    .pb-150 {
+        padding-bottom: 110px;
+    }
+    
+    .pb-60 {
+        padding-bottom: 40px;
+    }
+    
+    .cooperation-txt {
+        font-size: 0.9rem;
+    }
+    
+    #email {
+        font-size: 1.4rem;
+    }
+    
+    .pt-60 {
+        padding-top: 40px;
+    }
+    
+    .single-step-number::before {
+        width: 75px;
+        height: 75px;
+        top: -25px;
+    }
+    
+    .single-step-number {
+        font-size: 1.5rem;
+        margin-bottom: 45px;
+    }
+    
+    .single-step-label {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    
+    .pb-110 {
+        padding-bottom: 70px;
+    }
+    
+    #stats-section {
+        padding-top: 345px;
+    }
+    
+    .review-text {
+        font-size: 0.9rem;
+    }
+    
+    .review-single {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    
+    .carousel-size-2 {
+        height: 700px;
+    }
+    
+    .carousel-size-btn {
+        height: 25rem;
+    }
+
+    .ba-footer-widget-title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .ba-footer-widget ul li a {
+        font-size: 1.3rem;
+        line-height: 1rem;
+    }
+    
+    .label {
+        font-size: 1.3rem;
+        line-height: 1rem;
+    }
+
+    .ba-footer-copyright-text, .ba-footer-copyright-text a {
+        font-size: 1rem;
+    }
+    
+    .footer-one {
+        padding: 50px 0 50px;
+    }
+    
+    .footer-two {
+        padding: 40px 0;
+    }
+    
+    #contact-form_name, #contact-form_number {
+        font-size: 1rem;
+        padding: 10px 0;
+    }
+    
+    .list-partners li a {
+        font-size: 0.9rem;
+        padding-bottom: 0.6rem;
+        padding-left: 2rem;
+        background-size: 1.1rem 1.1rem;
+    }
+    
+    .port-img {
+        height: 260px;
+        width: 160px;
+    }
+    
+    .service-img-port {
+        height: 260px;
+        width: 180px;
+    }
+    
+    .header-banner-bg { 
+        background-position: left 10%;
+    }
+    
+    .service-bg {
+        background-position: right 20%;
+    }
+}
